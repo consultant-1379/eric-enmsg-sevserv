@@ -1,0 +1,56 @@
+- backend:
+    service:
+      name: sevserv
+      port:
+        number: 443
+  path: /sevserv
+  pathType: ImplementationSpecific
+- backend:
+    service:
+      name: sevserv
+      port:
+        number: 443
+  path: /siteenergyvisualization/
+  pathType: ImplementationSpecific
+- backend:
+    service:
+      name: sevserv
+      port:
+        number: 443
+  path: /locales/en-us/siteenergyvisualization/
+  pathType: ImplementationSpecific
+- backend:
+    service:
+      name: sevserv
+      port:
+        number: 443
+  path: /help/en-us/siteenergyvisualization/
+  pathType: ImplementationSpecific
+- backend:
+    service:
+      name: sevserv
+      port:
+        number: 443
+  path: /energyreport/
+  pathType: ImplementationSpecific
+- backend:
+    service:
+      name: sevserv
+      port:
+        number: 443
+  path: /locales/en-us/energyreport/
+  pathType: ImplementationSpecific
+- backend:
+    service:
+      name: sevserv
+      port:
+        number: 443
+  path: /help/en-us/energyreport/
+  pathType: ImplementationSpecific
+- backend:
+    service:
+      name: sevserv
+      port:
+        number: 443
+  path: /sev/
+  pathType: ImplementationSpecific
